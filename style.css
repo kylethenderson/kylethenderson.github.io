@@ -6,7 +6,7 @@
   margin: 0;
 }
 #mainBg {
-  background: linear-gradient(rgba(34,34,34,.75), rgba(34,34,34,.75)), url('assets/bwca1.jpg');
+  background: linear-gradient(rgba(34,34,34,.75), rgba(34,34,34,.75)), url('assets/bwca1.JPG');
   background-size: cover;
   min-height: 100vh;
 }
