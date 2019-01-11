@@ -1,0 +1,119 @@
+
+.no-pad {
+  padding: 0;
+}
+.no-marg {
+  margin: 0;
+}
+#mainBg {
+  background: linear-gradient(rgba(34,34,34,.75), rgba(34,34,34,.75)), url(assets/bwca1.jpg);
+  background-size: cover;
+  min-height: 100vh;
+}
+#mainBox {
+  position: relative;
+  top: 75px;
+  height: calc(100vh - 150px);
+  border: 1px solid white;
+  border-radius: 2px;
+  max-width: 1000px;
+}
+.full-height {
+  height: 100%;
+}
+#sidebar {
+  height: 100%;
+  background-color: rgb(51, 62, 81);
+}
+#sidebar img {
+  width: 80%;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+hr {
+  background-color: #fff;
+  width: 75%;
+}
+#sidebar ul {
+  list-style: none;
+  font-size: 12px;
+}
+#sidebar ul p {
+  margin-bottom: 0;
+  color: #fff;
+}
+#sidebar ul li{
+  margin-bottom: 10px;
+}
+#sidebar ul a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+nav > .nav.nav-tabs {
+  border: none;
+  color:#fff;
+  background:#272e38;
+}
+nav > div a.nav-item.nav-link {
+  border: none;
+  padding: 18px 25px;
+  color:#fff;
+  background: rgb(51, 62, 81);
+}
+nav > div a.nav-item.nav-link.active {
+  border: none;
+  padding: 18px 25px;
+  color: rgb(51, 62, 81);
+  background: #fff;
+}
+nav > div a.nav-item.nav-link:hover, nav > div a.nav-item.nav-link:focus {
+  background: #fff;
+  color: rgb(51, 62, 81);
+  transition: background 0.20s linear;
+}
+#content {
+  height: 100%;
+}
+.tab-content {
+  background: #fdfdfd;
+  line-height: 25px;
+  border: 1px solid #ddd;
+  padding:30px 25px;
+  height: calc(100% - 60px);
+  overflow-y: scroll;
+}
+.tab-content ul {
+  list-style: circle;
+}
+.tab-pane {
+  padding: 15px;
+  height: 100%;
+}
+.tab-pane .row.full-height {
+  height: 100%;
+}
+#objective {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+#footer {
+  background-color: rgb(51, 62, 81);
+}
+
+@media screen and (max-width: 576px){
+  #mainBox {
+    position: relative;
+    top: 75px;
+    height: calc(100% - 150px);
+    border: 1px solid white;
+    border-radius: 2px;
+  }
+  #sidebar ul {
+    text-align: center;
+  }
+  #objective {
+    font-weight: 200;
+    font-size: 16px;
+  }
+}
